@@ -1,13 +1,13 @@
 import { useState } from "react"
 import image2 from "../assets/image2.png";
 
-
+import { useNavigate } from "react-router-dom";
 import './loginsignup.css'
 import Card from '@mui/material/Card';
 
 const LoginSignup=()=>{
     const [isSignup,setSignup]=useState(false)
-
+    const navigate=useNavigate();
     const toggleOption=()=>{
         setSignup(!isSignup)
         setError(""); 
@@ -76,7 +76,7 @@ const handleLogin = async (e) => {
       
       if (response.ok) {
           alert("Login successful!");
-          window.location.href = "/job-listings";
+          navigate("/job-listings");
       } else {
           alert(data.message); 
       }
