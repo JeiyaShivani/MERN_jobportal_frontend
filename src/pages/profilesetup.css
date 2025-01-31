@@ -1,0 +1,95 @@
+.outer-profile-container{
+  padding: 40px;
+  display: flex;
+  flex:1;
+  gap:40px;
+  font-family: "Poppins";
+}
+.dogimage{
+  width: 300px;
+  position: relative;
+  left:100px;
+  top:100px;
+  transform: scale(1.25);
+  
+
+}
+.homenurse{
+  width: 300px;
+  position: relative;
+  right:5px;
+  top:100px;
+  
+  
+}
+.right-heading{
+  color: #ef2f2f;
+  text-align: left;
+  position: relative;
+  top:100px;
+}
+.left-heading{
+  color: #ef2f2f;
+  text-align: left;
+  position: relative;
+  top:100px;
+}
+.profile-container {
+    position: relative;
+    width: 500px;
+    right:80px;
+    background: #12232e;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+  }
+  
+  .profile-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  .profile-form-group {
+    margin-bottom: 20px;
+  }
+  
+  .profile-label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .profile-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #3b5a6e;
+    border: 1px solid #455a64;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+  }
+
+  .profile-submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff5c5c;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  
+  .profile-submit-button:hover {
+    background-color: #ff2e2e;
+    transform: scale(1.05);
+  }
+  

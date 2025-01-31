@@ -1,0 +1,109 @@
+/* General Styles */
+body {
+  font-family:"Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.text{
+  color:  #ff5c5c;
+}
+
+.outercontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  height: 100vh;
+  padding: 20px;
+}
+
+.login-signup-container {
+  background-color: #12232e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 50%; /* Set the form container to take up half of the screen width */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  width: 600px; /* Adjust image width */
+  height: auto;
+  margin: 0 20px;
+  background-color: #ffff;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Center the form elements horizontally */
+  justify-content: center; /* Center the form elements vertically */
+  width: 100%; /* Ensure form takes the full width of the container */
+  margin: 50px;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #12232e;
+}
+
+button {
+  padding: 10px;
+  background-color:  #ff5c5c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color:  #e04444;
+}
+
+.toggle-link {
+  color:  #ff5c5c;
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.3s;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.toggle-link:hover {
+  color:  #e04444;
+}
+
+p {
+  text-align: center;
+  margin-top: 15px;
+}
