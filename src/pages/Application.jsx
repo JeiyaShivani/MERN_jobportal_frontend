@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import image4 from "../assets/image4.png";
 import image5 from "../assets/image5.png";
 import './profilesetup.css';
+import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
 const Application = () => {
@@ -20,7 +21,7 @@ const handlenamechange=(e)=>{
 const handlenumberchange=(e)=>{
   setContact(e.target.value)
 }
-
+ const navigate=useNavigate();
 
 const addApplication=async(e)=>{
   e.preventDefault()
@@ -45,7 +46,7 @@ const addApplication=async(e)=>{
       setApplicantname("");
         setApplicantemail("");
         setContact("");
-        window.location.href = "/job-listings"; 
+        navigate("/job-listings"); 
     }
   }
   catch(error){
